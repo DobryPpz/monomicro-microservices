@@ -1,0 +1,27 @@
+body{
+    background-color: #002774;
+}
+.headers{
+    color: #A4F5F1;
+}
+.auth{
+    color: #A4F5F1;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#canv{
+    width: 800px;
+    height: 600px;
+    border-radius: 1%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid aqua;
+}
+#scoretable{
+    color: #A4F5F1;
+}

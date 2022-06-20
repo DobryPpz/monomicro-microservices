@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MonoMicro - monolith</title>
+    <!-- <script defer src="https://monomicro-monolith.azurewebsites.net:5050/socket.io/socket.io.js"></script> -->
+    <!-- <script defer src="http://localhost:5050/socket.io/socket.io.js"></script> -->
+    <script defer type="module" src="script.js"></script>
+</head>
+<body>
+    <p class="headers" id="message"></p>
+    <div>
+        <h3 class="headers" id="messagesignup">Zarejestruj się</h3>
+        <span class="auth">Nazwa użytkownika</span><input id="usernamesignup" type="text">
+        <span class="auth">Hasło</span><input id="passwordsignup" type="password">
+        <button id="signup">Zarejestruj</button>
+    </div>
+    <div>
+        <h3 class="headers" id="messagesignin">Zaloguj się</h3>
+        <span class="auth">Nazwa użytkownika</span><input id="usernamesignin" type="text">
+        <span class="auth">Hasło</span><input id="passwordsignin" type="password">
+        <button id="signin">Zaloguj</button>
+    </div>
+</body>
+</html>
